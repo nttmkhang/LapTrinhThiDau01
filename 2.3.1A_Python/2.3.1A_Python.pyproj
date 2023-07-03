@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5dd77e59-b6ab-4342-b45c-b4df9628bc3c</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
+    <ProjectGuid>17585663-35e9-4629-91d9-320f8b5a78c5</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
     <StartupFile>_2.3.1A_Python.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>2.3.1A_Python</Name>
-    <RootNamespace>2.3.1_Python</RootNamespace>
+    <RootNamespace>2.3.1A_Python</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
