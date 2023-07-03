@@ -1,4 +1,3 @@
-
 def toNumber(c):
     if c == '0':
         return 0
@@ -40,12 +39,3 @@ def HexaToDecimal(n):
         temp = temp + sixteenpower * toNumber(n_reversed[i])
         sixteenpower *= 16
     return temp
-
-def main():
-    sHexa = input('Nhap chuoi thap luc phan: ')
-    decimal = HexaToDecimal(sHexa)
-    print('Gia tri thap phan cua chuoi', sHexa, 'la:', decimal)
-    print('\n\n\nKet thuc!!!!')
-
-if __name__ == "__main__":
-    main()
