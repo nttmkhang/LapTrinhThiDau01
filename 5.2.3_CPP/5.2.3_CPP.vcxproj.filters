@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.3.3A_CPP.cpp">
+    <ClCompile Include="5.2.3_CPP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

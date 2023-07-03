@@ -1,4 +1,3 @@
-
 def toNumber(c):
     if c == '0':
         return 0
@@ -32,20 +31,26 @@ def toNumber(c):
         return 14
     return 15
 
-def HexaToDecimal(n):
-    n_reversed = n[::-1]
-    temp = 0
-    sixteenpower = 1
-    for i in range (0, len(n)):
-        temp = temp + sixteenpower * toNumber(n_reversed[i])
-        sixteenpower *= 16
+def toChar(n) :
+    Letter = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F']
+    return Letter[n]
+
+def addBigNum(x, y):
+    while len(x) < len(y):
+        x = '0' + x
+    while len(x) > len(y):
+        y = '0' + y
+    
+    carry = 0
+    temp = ""
+    for i in range(len(x) - 1, -1, -1):
+        xx = toNumber(x[i])
+        yy = toNumber(y[i])
+        ss = xx + yy + carry
+        
+        temp = toChar(ss % 10) + temp
+        carry = ss // 10
+    
+    if carry > 0:
+        temp = "1" + temp
     return temp
-
-def main():
-    sHexa = input('Nhap chuoi thap luc phan: ')
-    decimal = HexaToDecimal(sHexa)
-    print('Gia tri thap phan cua chuoi', sHexa, 'la:', decimal)
-    print('\n\n\nKet thuc!!!!')
-
-if __name__ == "__main__":
-    main()
