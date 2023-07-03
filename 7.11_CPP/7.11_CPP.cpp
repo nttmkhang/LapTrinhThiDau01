@@ -1,8 +1,3 @@
-#include<iostream>
-using namespace std;
-
-typedef string BigNum;
-
 BigNum modBigNum(BigNum x, BigNum y)
 {
     BigNum kY[11];
