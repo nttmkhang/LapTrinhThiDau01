@@ -1,4 +1,4 @@
-#cai tien lan 1
+#cai tien lan 2
 
 def GiaiThua(n):
     T = 1

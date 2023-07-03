@@ -13,5 +13,5 @@ long long Catalan(long long n)
 	long long a = GiaiThua(2 * n);
 	long long b = GiaiThua(n);
 	long long c = GiaiThua(n + 1);
-	return a / (b * c);
+	return a / b / c;
 }
