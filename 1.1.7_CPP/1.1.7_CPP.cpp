@@ -1,20 +1,44 @@
-// 1.1.7_CPP.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include<iostream>
+using namespace std;
 
-#include <iostream>
+int toNumber(char);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+int toNumber(char c)
+{
+	if (c == '0')
+		return 0;
+	if (c == '1')
+		return 1;
+	if (c == '2')
+		return 2;
+	if (c == '3')
+		return 3;
+	if (c == '4')
+		return 4;
+	if (c == '5')
+		return 5;
+	if (c == '6')
+		return 6;
+	if (c == '7')
+		return 7;
+	if (c == '8')
+		return 8;
+	if (c == '9')
+		return 9;
+	if (c == 'A' || c == 'a')
+		return 10;
+	if (c == 'B' || c == 'b')
+		return 11;
+	if (c == 'C' || c == 'c')
+		return 12;
+	if (c == 'D' || c == 'd')
+		return 13;
+	if (c == 'E' || c == 'e')
+		return 14;
+	return 15;
+}
