@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.3.5C_CPP", "1.3.5C_CPP\1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.2.4A_CPP", "1.2.4A_CPP\1.2.4A_CPP.vcxproj", "{6B060A38-B58D-449F-8F6C-1D171F58ED66}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "1.2.4A_Python", "1.2.4A_Python\1.2.4A_Python.pyproj", "{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,12 @@ Global
 		{6B060A38-B58D-449F-8F6C-1D171F58ED66}.Release|x64.Build.0 = Release|x64
 		{6B060A38-B58D-449F-8F6C-1D171F58ED66}.Release|x86.ActiveCfg = Release|Win32
 		{6B060A38-B58D-449F-8F6C-1D171F58ED66}.Release|x86.Build.0 = Release|Win32
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{D5681C68-D03D-4F2F-8FC6-EF5DF3CB6D2B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
