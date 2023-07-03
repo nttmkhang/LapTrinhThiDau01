@@ -11,3 +11,11 @@ def sumDivisors_2(n):
         T = T * (power * p - 1) / (p - 1)
         p += 1
     return T
+
+def main():
+    n = int(input("Nhap n: "))
+    print("Tong cac uoc so cua n la: ", sumDivisors_2(n))
+
+
+if __name__ == "__main__":
+    main()
