@@ -9,7 +9,9 @@ float LuyThua(float x, long n)
 	if (n % 2 == 0)
 		return t * t;
 	return t * t * x;
-}long long power(long long a, long long b)
+}
+
+long long power(long long a, long long b)
 {
 	if (b == 0)
 		return 1LL;
@@ -17,4 +19,4 @@ float LuyThua(float x, long n)
 	if (b % 2 == 0)
 		return t * t;
 	return t * t * a;
-}
+}
