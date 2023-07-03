@@ -53,6 +53,8 @@ Global
 		{4125E648-918E-4F0E-A5DA-BDE3C85BA1B2}.Release|x64.Build.0 = Release|x64
 		{4125E648-918E-4F0E-A5DA-BDE3C85BA1B2}.Release|x86.ActiveCfg = Release|Win32
 		{4125E648-918E-4F0E-A5DA-BDE3C85BA1B2}.Release|x86.Build.0 = Release|Win32
+		{F64CC1D2-883D-42BA-A092-79A208BFC3E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{F64CC1D2-883D-42BA-A092-79A208BFC3E0}.Release|x86.ActiveCfg = Release|Any CPU
 >>>>>>> ec51f3eceb112f2c561ff661a11ca9d45161622b
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
