@@ -17,4 +17,4 @@ vector<long long> Eratosthenes(long long n)
 		if (isprime[p] == true)
 			prime.push_back(p);
 	return prime;
-}
+}
